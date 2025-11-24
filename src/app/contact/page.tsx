@@ -65,7 +65,6 @@ export default function ContactPage() {
 
       <div id="footer" data-section="footer">
         <FooterSocial
-          brandName="BigCoder"
           copyrightText="© 2025 BigCoder IT School. All rights reserved."
           columns={[
             {"title":"Courses","items":[
