@@ -6,7 +6,7 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
 import Link from 'next/link';
-import { Mail, HelpCircle } from 'lucide-react';
+import { Mail, HelpCircle, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
 
 export default function ContactPage() {
   return (
@@ -83,6 +83,12 @@ export default function ContactPage() {
               {"label":"FAQ","href":"/faq"},
               {"label":"Contact","href":"/contact"}
             ]}
+          ]}
+          socialLinks={[
+            {"icon":Twitter,"href":"https://twitter.com/bigcoder","ariaLabel":"Follow BigCoder on Twitter"},
+            {"icon":Linkedin,"href":"https://linkedin.com/company/bigcoder","ariaLabel":"Connect with BigCoder on LinkedIn"},
+            {"icon":Youtube,"href":"https://youtube.com/bigcoder","ariaLabel":"Subscribe to BigCoder YouTube"},
+            {"icon":Instagram,"href":"https://instagram.com/bigcoder","ariaLabel":"Follow BigCoder on Instagram"}
           ]}
         />
       </div>

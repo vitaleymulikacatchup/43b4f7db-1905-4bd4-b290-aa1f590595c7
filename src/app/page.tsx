@@ -8,7 +8,6 @@ import FeatureCardFive from '@/components/sections/feature/FeatureCardFive';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import FooterSocial from '@/components/sections/footer/FooterSocial';
 import Link from 'next/link';
 import { Code, Sparkles, Globe, Smartphone, BarChart3, Shield, Cloud, Brain, BookOpen, DollarSign, Star, Zap, Crown, Building2 } from 'lucide-react';
 
@@ -139,30 +138,6 @@ export default function HomePage() {
           ]}
           speed={40}
           showCard={true}
-        />
-      </div>
-
-      <div id="footer" data-section="footer">
-        <FooterSocial
-          brandName="BigCoder"
-          copyrightText="© 2025 BigCoder IT School. All rights reserved."
-          columns={[
-            {"title":"Courses","items":[
-              {"label":"Web Development","href":"/courses/web-development"},
-              {"label":"Data Science","href":"/courses/data-science"},
-              {"label":"Mobile Apps","href":"/courses/mobile-apps"},
-              {"label":"Cybersecurity","href":"/courses/cybersecurity"}
-            ]},
-            {"title":"Company","items":[
-              {"label":"About Us","href":"/about"},
-              {"label":"Our Instructors","href":"/about"},
-              {"label":"Career Services","href":"/career-services"}
-            ]},
-            {"title":"Resources","items":[
-              {"label":"FAQ","href":"/faq"},
-              {"label":"Contact","href":"/contact"}
-            ]}
-          ]}
         />
       </div>
     </ThemeProvider>

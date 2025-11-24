@@ -8,7 +8,7 @@ import TestimonialCardFour from '@/components/sections/testimonial/TestimonialCa
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
 import Link from 'next/link';
-import { TrendingUp, Users, MessageSquare, Newspaper } from 'lucide-react';
+import { TrendingUp, Users, MessageSquare, Newspaper, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -122,6 +122,12 @@ export default function AboutPage() {
               {"label":"FAQ","href":"/faq"},
               {"label":"Contact","href":"/contact"}
             ]}
+          ]}
+          socialLinks={[
+            {"icon":Twitter,"href":"https://twitter.com/bigcoder","ariaLabel":"Follow BigCoder on Twitter"},
+            {"icon":Linkedin,"href":"https://linkedin.com/company/bigcoder","ariaLabel":"Connect with BigCoder on LinkedIn"},
+            {"icon":Youtube,"href":"https://youtube.com/bigcoder","ariaLabel":"Subscribe to BigCoder YouTube"},
+            {"icon":Instagram,"href":"https://instagram.com/bigcoder","ariaLabel":"Follow BigCoder on Instagram"}
           ]}
         />
       </div>

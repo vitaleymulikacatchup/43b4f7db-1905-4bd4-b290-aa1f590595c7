@@ -6,7 +6,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
 import Link from 'next/link';
-import { BookOpen, DollarSign, Star, Zap, Crown } from 'lucide-react';
+import { BookOpen, DollarSign, Star, Zap, Crown, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
 
 export default function CoursesPage() {
   return (
@@ -87,6 +87,12 @@ export default function CoursesPage() {
               {"label":"FAQ","href":"/faq"},
               {"label":"Contact","href":"/contact"}
             ]}
+          ]}
+          socialLinks={[
+            {"icon":Twitter,"href":"https://twitter.com/bigcoder","ariaLabel":"Follow BigCoder on Twitter"},
+            {"icon":Linkedin,"href":"https://linkedin.com/company/bigcoder","ariaLabel":"Connect with BigCoder on LinkedIn"},
+            {"icon":Youtube,"href":"https://youtube.com/bigcoder","ariaLabel":"Subscribe to BigCoder YouTube"},
+            {"icon":Instagram,"href":"https://instagram.com/bigcoder","ariaLabel":"Follow BigCoder on Instagram"}
           ]}
         />
       </div>
