@@ -6,7 +6,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
 import Link from 'next/link';
-import { BookOpen, DollarSign, Star, Zap, Crown, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
+import { BookOpen, DollarSign, Star, Zap, Crown } from 'lucide-react';
 
 export default function CoursesPage() {
   return (
@@ -27,8 +27,6 @@ export default function CoursesPage() {
           navItems={[
             {"name":"Home","id":"/"},
             {"name":"About","id":"/about"},
-            {"name":"Instructors","id":"/team"},
-            {"name":"Success Stories","id":"/testimonials"},
             {"name":"Contact","id":"/contact"}
           ]}
           brandName="BigCoder"
@@ -82,28 +80,13 @@ export default function CoursesPage() {
             ]},
             {"title":"Company","items":[
               {"label":"About Us","href":"/about"},
-              {"label":"Our Instructors","href":"/team"},
-              {"label":"Success Stories","href":"/testimonials"},
+              {"label":"Our Instructors","href":"/about"},
               {"label":"Career Services","href":"/career-services"}
             ]},
             {"title":"Resources","items":[
-              {"label":"Blog","href":"/blog"},
               {"label":"FAQ","href":"/faq"},
-              {"label":"Student Portal","href":"/student-portal"},
               {"label":"Contact","href":"/contact"}
-            ]},
-            {"title":"Support","items":[
-              {"label":"Help Center","href":"/help"},
-              {"label":"Technical Support","href":"/support"},
-              {"label":"Admissions","href":"/admissions"},
-              {"label":"Financial Aid","href":"/financial-aid"}
             ]}
-          ]}
-          socialLinks={[
-            {"icon":"Twitter","href":"https://twitter.com/bigcoder","ariaLabel":"Follow BigCoder on Twitter"},
-            {"icon":"Linkedin","href":"https://linkedin.com/company/bigcoder","ariaLabel":"Connect with BigCoder on LinkedIn"},
-            {"icon":"Youtube","href":"https://youtube.com/bigcoder","ariaLabel":"Subscribe to BigCoder YouTube"},
-            {"icon":"Instagram","href":"https://instagram.com/bigcoder","ariaLabel":"Follow BigCoder on Instagram"}
           ]}
         />
       </div>
